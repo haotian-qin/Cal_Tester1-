@@ -1,0 +1,288 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 46;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		7C537D092398ABDF00495FC0 /* AppDelegate.m in Sources */ = {isa = PBXBuildFile; fileRef = 7C537D082398ABDF00495FC0 /* AppDelegate.m */; };
+		7C537D0C2398ABDF00495FC0 /* main.m in Sources */ = {isa = PBXBuildFile; fileRef = 7C537D0B2398ABDF00495FC0 /* main.m */; };
+		7C537D0E2398ABDF00495FC0 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 7C537D0D2398ABDF00495FC0 /* Assets.xcassets */; };
+		7C537D112398ABDF00495FC0 /* MainMenu.xib in Resources */ = {isa = PBXBuildFile; fileRef = 7C537D0F2398ABDF00495FC0 /* MainMenu.xib */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXFileReference section */
+		7C537D042398ABDE00495FC0 /* Cal_Tester.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = Cal_Tester.app; sourceTree = BUILT_PRODUCTS_DIR; };
+		7C537D072398ABDF00495FC0 /* AppDelegate.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = AppDelegate.h; sourceTree = "<group>"; };
+		7C537D082398ABDF00495FC0 /* AppDelegate.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = AppDelegate.m; sourceTree = "<group>"; };
+		7C537D0B2398ABDF00495FC0 /* main.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = main.m; sourceTree = "<group>"; };
+		7C537D0D2398ABDF00495FC0 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
+		7C537D102398ABDF00495FC0 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.xib; name = Base; path = Base.lproj/MainMenu.xib; sourceTree = "<group>"; };
+		7C537D122398ABDF00495FC0 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		7C537D012398ABDE00495FC0 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		7C537CFB2398ABDE00495FC0 = {
+			isa = PBXGroup;
+			children = (
+				7C537D062398ABDE00495FC0 /* Cal_Tester */,
+				7C537D052398ABDE00495FC0 /* Products */,
+			);
+			sourceTree = "<group>";
+		};
+		7C537D052398ABDE00495FC0 /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				7C537D042398ABDE00495FC0 /* Cal_Tester.app */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		7C537D062398ABDE00495FC0 /* Cal_Tester */ = {
+			isa = PBXGroup;
+			children = (
+				7C537D072398ABDF00495FC0 /* AppDelegate.h */,
+				7C537D082398ABDF00495FC0 /* AppDelegate.m */,
+				7C537D0D2398ABDF00495FC0 /* Assets.xcassets */,
+				7C537D0F2398ABDF00495FC0 /* MainMenu.xib */,
+				7C537D122398ABDF00495FC0 /* Info.plist */,
+				7C537D0A2398ABDF00495FC0 /* Supporting Files */,
+			);
+			path = Cal_Tester;
+			sourceTree = "<group>";
+		};
+		7C537D0A2398ABDF00495FC0 /* Supporting Files */ = {
+			isa = PBXGroup;
+			children = (
+				7C537D0B2398ABDF00495FC0 /* main.m */,
+			);
+			name = "Supporting Files";
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		7C537D032398ABDE00495FC0 /* Cal_Tester */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 7C537D152398ABDF00495FC0 /* Build configuration list for PBXNativeTarget "Cal_Tester" */;
+			buildPhases = (
+				7C537D002398ABDE00495FC0 /* Sources */,
+				7C537D012398ABDE00495FC0 /* Frameworks */,
+				7C537D022398ABDE00495FC0 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = Cal_Tester;
+			productName = Cal_Tester;
+			productReference = 7C537D042398ABDE00495FC0 /* Cal_Tester.app */;
+			productType = "com.apple.product-type.application";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		7C537CFC2398ABDE00495FC0 /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				LastUpgradeCheck = 0720;
+				ORGANIZATIONNAME = a1234;
+				TargetAttributes = {
+					7C537D032398ABDE00495FC0 = {
+						CreatedOnToolsVersion = 7.2.1;
+					};
+				};
+			};
+			buildConfigurationList = 7C537CFF2398ABDE00495FC0 /* Build configuration list for PBXProject "Cal_Tester" */;
+			compatibilityVersion = "Xcode 3.2";
+			developmentRegion = English;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+				Base,
+			);
+			mainGroup = 7C537CFB2398ABDE00495FC0;
+			productRefGroup = 7C537D052398ABDE00495FC0 /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				7C537D032398ABDE00495FC0 /* Cal_Tester */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		7C537D022398ABDE00495FC0 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				7C537D0E2398ABDF00495FC0 /* Assets.xcassets in Resources */,
+				7C537D112398ABDF00495FC0 /* MainMenu.xib in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		7C537D002398ABDE00495FC0 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				7C537D0C2398ABDF00495FC0 /* main.m in Sources */,
+				7C537D092398ABDF00495FC0 /* AppDelegate.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin PBXVariantGroup section */
+		7C537D0F2398ABDF00495FC0 /* MainMenu.xib */ = {
+			isa = PBXVariantGroup;
+			children = (
+				7C537D102398ABDF00495FC0 /* Base */,
+			);
+			name = MainMenu.xib;
+			sourceTree = "<group>";
+		};
+/* End PBXVariantGroup section */
+
+/* Begin XCBuildConfiguration section */
+		7C537D132398ABDF00495FC0 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				CODE_SIGN_IDENTITY = "-";
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = dwarf;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				ENABLE_TESTABILITY = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				MACOSX_DEPLOYMENT_TARGET = 10.10;
+				MTL_ENABLE_DEBUG_INFO = YES;
+				ONLY_ACTIVE_ARCH = YES;
+				SDKROOT = macosx;
+			};
+			name = Debug;
+		};
+		7C537D142398ABDF00495FC0 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				CODE_SIGN_IDENTITY = "-";
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				ENABLE_NS_ASSERTIONS = NO;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				MACOSX_DEPLOYMENT_TARGET = 10.10;
+				MTL_ENABLE_DEBUG_INFO = NO;
+				SDKROOT = macosx;
+			};
+			name = Release;
+		};
+		7C537D162398ABDF00495FC0 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				COMBINE_HIDPI_IMAGES = YES;
+				INFOPLIST_FILE = Cal_Tester/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/../Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = "JC.Cal-Tester";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+			};
+			name = Debug;
+		};
+		7C537D172398ABDF00495FC0 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				COMBINE_HIDPI_IMAGES = YES;
+				INFOPLIST_FILE = Cal_Tester/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/../Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = "JC.Cal-Tester";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		7C537CFF2398ABDE00495FC0 /* Build configuration list for PBXProject "Cal_Tester" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				7C537D132398ABDF00495FC0 /* Debug */,
+				7C537D142398ABDF00495FC0 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		7C537D152398ABDF00495FC0 /* Build configuration list for PBXNativeTarget "Cal_Tester" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				7C537D162398ABDF00495FC0 /* Debug */,
+				7C537D172398ABDF00495FC0 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+		};
+/* End XCConfigurationList section */
+	};
+	rootObject = 7C537CFC2398ABDE00495FC0 /* Project object */;
+}
